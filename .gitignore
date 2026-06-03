@@ -1,0 +1,9 @@
+node_modules/
+developer-portfolio/
+*.png
+*.zip
+*.tar.gz
+*.tgz
+*.log
+.DS_Store
+Thumbs.db

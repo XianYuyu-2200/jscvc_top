@@ -1,0 +1,13 @@
+tunnel: 9fa79dbf-262c-49ce-a239-7adeeda7afff
+credentials-file: /home/xiaoliu/.cloudflared/9fa79dbf-262c-49ce-a239-7adeeda7afff.json
+
+ingress:
+  - hostname: jscvc.top
+    service: http://127.0.0.1:80
+  - hostname: www.jscvc.top
+    service: http://127.0.0.1:80
+  - hostname: jsjbsk.com
+    service: http://127.0.0.1:80
+  - hostname: www.jsjbsk.com
+    service: http://127.0.0.1:80
+  - service: http_status:404
