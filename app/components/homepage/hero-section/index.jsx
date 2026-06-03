@@ -84,6 +84,22 @@ function HeroSection() {
             </Link>
           </div>
 
+          <div className="mt-5 flex flex-wrap items-center gap-3">
+            {[
+              { href: "/wyf/", label: "WYF" },
+              { href: "/jjx/", label: "JJX" },
+              { href: "/ljh/", label: "LJH" },
+            ].map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                className="rounded-full border border-[#1b2c68a0] bg-[#0d1224] px-4 py-2 text-xs font-semibold tracking-wider text-[#16f2b3] transition-all duration-200 hover:border-pink-500 hover:text-pink-500 md:text-sm"
+              >
+                {item.label}
+              </a>
+            ))}
+          </div>
+
         </div>
         <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
